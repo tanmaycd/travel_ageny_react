@@ -85,6 +85,30 @@
     transform: translateX(10px);
     background: #d5f5e3;
   }
+  /* Itinerary section */
+.trip-itinerary {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .trip-itinerary-item {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+    color: #000; /* Set text color to black */
+    font-weight: 600; /* Make the text slightly bolder */
+  }
+  
+  .trip-itinerary-item:hover {
+    transform: translateX(10px);
+    background: #d5f5e3;
+    color: #000; /* Ensure text remains black on hover */
+  }
   
   /* Responsive design */
   @media (max-width: 768px) {
