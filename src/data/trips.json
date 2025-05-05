@@ -6,8 +6,8 @@
       "duration": "7 days",
       "rating": "4.8",
       "images": [
-          "../../public/images/image1.jpg",
-          "../../public/images/image2.jpg"
+          "../images/image1.jpg",
+          "../images/image2.jpg"
       ],
       "itinerary": [
           "Day 1: Arrival in Bali",
@@ -24,8 +24,8 @@
       "duration": "5 days",
       "rating": "4.7",
       "images": [
-         "../../public/images/image2.jpg",
-          "../../public/images/image3.png"
+         "../images/image2.jpg",
+          "../images/image3.png"
       ],
       "itinerary": [
           "Day 1: Arrival in Kyoto",
@@ -42,8 +42,8 @@
       "duration": "6 Days",
       "rating": 5.0,
       "images": [
-   "../../public/images/image3.png",
-          "../../public/images/image4.png"
+   "../images/image3.png",
+          "../images/image4.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -60,8 +60,8 @@
       "duration": "7 Days",
       "rating": 4.5,
       "images": [
-       "../../public/images/image3.png",
-          "../../public/images/image4.png"
+       "../images/image3.png",
+          "../images/image4.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -78,8 +78,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-      "../../public/images/image4.png",
-          "../../public/images/image5.png"
+      "../images/image4.png",
+          "../images/image5.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -96,8 +96,8 @@
       "duration": "5 Days",
       "rating": 4.9,
       "images": [
-      "../../public/images/image5.png",
-          "../../public/images/image6.png"
+      "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -114,8 +114,8 @@
       "duration": "7 Days",
       "rating": 4.7,
       "images": [
-       "../../public/images/image5.png",
-          "../../public/images/image6.png"
+       "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -132,8 +132,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-       "../../public/images/image5.png",
-          "../../public/images/image6.png"
+       "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -150,8 +150,8 @@
       "duration": "5 Days",
       "rating": 4.9,
       "images": [
-      "../../public/images/image5.png",
-          "../../public/images/image6.png"
+      "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -168,8 +168,8 @@
       "duration": "8 Days",
       "rating": 4.7,
       "images": [
-     "../../public/images/image5.png",
-          "../../public/images/image6.png"
+     "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -186,8 +186,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-        "../../public/images/image5.png",
-          "../../public/images/image6.png"
+        "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and acclimatization in Cusco",
@@ -204,8 +204,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-       "../../public/images/image5.png",
-          "../../public/images/image6.png"
+       "../images/image5.png",
+          "../images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
