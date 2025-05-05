@@ -1,0 +1,218 @@
+[
+  {
+      "id": 1,
+      "destination": "Bali, Indonesia",
+      "price": "800",
+      "duration": "7 days",
+      "rating": "4.8",
+      "images": [
+          "/assets/images/image1.jpg",
+          "/assets/images/image2.jpg"
+      ],
+      "itinerary": [
+          "Day 1: Arrival in Bali",
+          "Day 2: Visit to Uluwatu Temple",
+          "Day 3: Snorkeling at Nusa Dua",
+          "Day 4: Local market tour",
+          "Day 5-7: Relax at beach resort"
+      ]
+  },
+  {
+      "id": 2,
+      "destination": "Kyoto, Japan",
+      "price": "1200",
+      "duration": "5 days",
+      "rating": "4.7",
+      "images": [
+          "/assets/images/image3.jpg",
+          "/assets/images/image4.jpg"
+      ],
+      "itinerary": [
+          "Day 1: Arrival in Kyoto",
+          "Day 2: Tour of Kinkaku-ji Temple",
+          "Day 3: Cherry blossom viewing",
+          "Day 4: Local food experience",
+          "Day 5: Departure"
+      ]
+  },
+  {
+      "id": 5,
+      "destination": "Rome, Italy",
+      "price": 995,
+      "duration": "6 Days",
+      "rating": 5.0,
+      "images": [
+          "/assets/images/colosseum.jpg",
+          "/assets/images/vatican.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Colosseum and Roman Forum tour",
+          "Vatican Museums and St. Peter\u2019s Basilica",
+          "Trevi Fountain and Spanish Steps",
+          "Pasta-making class and departure"
+      ]
+  },
+  {
+      "id": 6,
+      "destination": "Cairo, Egypt",
+      "price": 930,
+      "duration": "7 Days",
+      "rating": 4.5,
+      "images": [
+          "/assets/images/pyramids.jpg",
+          "/assets/images/nile.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Visit to the Pyramids of Giza",
+          "Egyptian Museum and Khan el-Khalili bazaar",
+          "Nile River dinner cruise",
+          "Departure"
+      ]
+  },
+  {
+      "id": 7,
+      "destination": "Barcelona, Spain",
+      "price": 1689,
+      "duration": "6 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/sagrada.jpg",
+          "/assets/images/beach.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Sagrada Familia and Park G\u00fcell",
+          "Gothic Quarter walking tour",
+          "Beach day and tapas evening",
+          "Departure"
+      ]
+  },
+  {
+      "id": 8,
+      "destination": "Bangkok, Thailand",
+      "price": 1416,
+      "duration": "5 Days",
+      "rating": 4.9,
+      "images": [
+          "/assets/images/temple.jpg",
+          "/assets/images/market.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Grand Palace and Wat Arun",
+          "Floating Market tour",
+          "Thai cooking class",
+          "Departure"
+      ]
+  },
+  {
+      "id": 9,
+      "destination": "Istanbul, Turkey",
+      "price": 1049,
+      "duration": "7 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/hagia.jpg",
+          "/assets/images/bosphorus.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Hagia Sophia and Blue Mosque tour",
+          "Topkapi Palace and Grand Bazaar",
+          "Bosphorus sunset cruise",
+          "Departure"
+      ]
+  },
+  {
+      "id": 10,
+      "destination": "Cape Town, South Africa",
+      "price": 1021,
+      "duration": "6 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/table.jpg",
+          "/assets/images/penguins.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Table Mountain hike",
+          "Cape of Good Hope and penguin beach",
+          "Winelands tour",
+          "Departure"
+      ]
+  },
+  {
+      "id": 11,
+      "destination": "Sydney, Australia",
+      "price": 1038,
+      "duration": "5 Days",
+      "rating": 4.9,
+      "images": [
+          "/assets/images/opera.jpg",
+          "/assets/images/bondi.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Sydney Opera House and Harbour Bridge",
+          "Bondi Beach and coastal walk",
+          "Blue Mountains day trip",
+          "Departure"
+      ]
+  },
+  {
+      "id": 12,
+      "destination": "Reykjavik, Iceland",
+      "price": 1408,
+      "duration": "8 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/northern.jpg",
+          "/assets/images/geyser.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Golden Circle tour",
+          "Northern Lights excursion",
+          "Blue Lagoon relaxation",
+          "Departure"
+      ]
+  },
+  {
+      "id": 13,
+      "destination": "Machu Picchu, Peru",
+      "price": 1740,
+      "duration": "6 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/inca.jpg",
+          "/assets/images/cusco.jpg"
+      ],
+      "itinerary": [
+          "Arrival and acclimatization in Cusco",
+          "Sacred Valley tour",
+          "Inca Trail hike",
+          "Explore Machu Picchu",
+          "Departure"
+      ]
+  },
+  {
+      "id": 14,
+      "destination": "Queenstown, New Zealand",
+      "price": 1098,
+      "duration": "6 Days",
+      "rating": 4.7,
+      "images": [
+          "/assets/images/lake.jpg",
+          "/assets/images/bungee.jpg"
+      ],
+      "itinerary": [
+          "Arrival and hotel check-in",
+          "Lake Wakatipu and Skyline gondola",
+          "Bungee jumping and adventure sports",
+          "Milford Sound cruise",
+          "Departure"
+      ]
+  }
+]
