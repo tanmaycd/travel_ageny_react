@@ -6,8 +6,8 @@
       "duration": "7 days",
       "rating": "4.8",
       "images": [
-          "/assets/images/image1.jpg",
-          "/assets/images/image2.jpg"
+          "../../public/images/image1.jpg",
+          "../../public/images/image2.jpg"
       ],
       "itinerary": [
           "Day 1: Arrival in Bali",
@@ -24,8 +24,8 @@
       "duration": "5 days",
       "rating": "4.7",
       "images": [
-          "/assets/images/image3.jpg",
-          "/assets/images/image4.jpg"
+         "../../public/images/image2.jpg",
+          "../../public/images/image3.png"
       ],
       "itinerary": [
           "Day 1: Arrival in Kyoto",
@@ -42,8 +42,8 @@
       "duration": "6 Days",
       "rating": 5.0,
       "images": [
-          "/assets/images/colosseum.jpg",
-          "/assets/images/vatican.jpg"
+   "../../public/images/image3.png",
+          "../../public/images/image4.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -60,8 +60,8 @@
       "duration": "7 Days",
       "rating": 4.5,
       "images": [
-          "/assets/images/pyramids.jpg",
-          "/assets/images/nile.jpg"
+       "../../public/images/image3.png",
+          "../../public/images/image4.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -78,8 +78,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/sagrada.jpg",
-          "/assets/images/beach.jpg"
+      "../../public/images/image4.png",
+          "../../public/images/image5.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -96,8 +96,8 @@
       "duration": "5 Days",
       "rating": 4.9,
       "images": [
-          "/assets/images/temple.jpg",
-          "/assets/images/market.jpg"
+      "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -114,8 +114,8 @@
       "duration": "7 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/hagia.jpg",
-          "/assets/images/bosphorus.jpg"
+       "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -132,8 +132,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/table.jpg",
-          "/assets/images/penguins.jpg"
+       "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -150,8 +150,8 @@
       "duration": "5 Days",
       "rating": 4.9,
       "images": [
-          "/assets/images/opera.jpg",
-          "/assets/images/bondi.jpg"
+      "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -168,8 +168,8 @@
       "duration": "8 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/northern.jpg",
-          "/assets/images/geyser.jpg"
+     "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",
@@ -186,8 +186,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/inca.jpg",
-          "/assets/images/cusco.jpg"
+        "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and acclimatization in Cusco",
@@ -204,8 +204,8 @@
       "duration": "6 Days",
       "rating": 4.7,
       "images": [
-          "/assets/images/lake.jpg",
-          "/assets/images/bungee.jpg"
+       "../../public/images/image5.png",
+          "../../public/images/image6.png"
       ],
       "itinerary": [
           "Arrival and hotel check-in",

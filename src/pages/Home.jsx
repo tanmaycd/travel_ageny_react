@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     // Initially set the top 3 destinations
-    const selectedDestinations = trips.slice(0, 3);
+    const selectedDestinations = trips.slice(0, 5);
     setFeaturedDestinations(selectedDestinations);
   }, []);
 

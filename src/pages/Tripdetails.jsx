@@ -2,7 +2,7 @@ import "./TripDetails.css";
 import { useParams } from "react-router-dom";
 import trips from "../data/trips.json";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 
 const TripDetails = () => {
   const { id } = useParams();
