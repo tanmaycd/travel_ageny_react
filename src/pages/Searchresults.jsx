@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import trips from '../data/trips.json';
-import './Searchresults.css';
+import './SearchResults.css';
 
 const SearchResults = () => {
   const [filteredTrips, setFilteredTrips] = useState([]);
