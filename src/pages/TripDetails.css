@@ -1,155 +1,110 @@
 /* Full-width container */
+.trip-details-container {
+    width: 100%;
+     /* Optional: Limit the maximum width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Trip details section styling */
 .trip-details {
     width: 100%;
-     /* Center the content horizontally */
+    
+    margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background: linear-gradient(to bottom, #f9f9f9, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Destination title */
-  .trip-details h2 {
-    font-size: 2.5rem;
+  .trip-title {
+    font-size: 3rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #2c3e50;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
   
   /* Image styling */
-  .trip-details img {
+  .trip-image {
     width: 100%;
     max-width: 800px;
     height: auto;
     border-radius: 10px;
     margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
   }
   
-  /* Paragraph styling */
-  .trip-details p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: #555;
+  .trip-image:hover {
+    transform: scale(1.05);
   }
   
-  /* Itinerary section */
-  .trip-details h3 {
-    font-size: 2rem;
-    margin-top: 30px;
-    color: #444;
-  }
-  
-  .trip-details ul {
-    list-style: none;
-    padding: 0;
+  /* Trip info section */
+  .trip-info {
     margin: 20px 0;
   }
   
-  .trip-details ul li {
-    font-size: 1.1rem;
+  .trip-detail {
+    font-size: 1.5rem;
     margin: 10px 0;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #34495e;
+    font-weight: 500;
   }
   
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .trip-details h2 {
-      font-size: 2rem;
-    }
-  
-    .trip-details img {
-      max-width: 100%;
-    }
-  
-    .trip-details p {
-      font-size: 1rem;
-    }
-  
-    .trip-details h3 {
-      font-size: 1.5rem;
-    }
-  
-    .trip-details ul li {
-      font-size: 1rem;
-    }
-  }
-
-  /* Full-width container */
-.trip-details {
-    width: 100%; /* Occupy the full width of the viewport */
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0; /* Remove any default margins */
-  }
-  
-  /* Destination title */
-  .trip-details h2 {
+  /* Itinerary section */
+  .trip-itinerary-title {
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Image styling */
-  .trip-details img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Paragraph styling */
-  .trip-details p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: #555;
-  }
-  
-  /* Itinerary section */
-  .trip-details h3 {
-    font-size: 2rem;
     margin-top: 30px;
-    color: #444;
+    color: #16a085;
+    font-weight: bold;
   }
   
-  .trip-details ul {
+  .trip-itinerary {
     list-style: none;
     padding: 0;
     margin: 20px 0;
   }
   
-  .trip-details ul li {
-    font-size: 1.1rem;
+  .trip-itinerary-item {
+    font-size: 1.2rem;
     margin: 10px 0;
-    padding: 10px;
-    background: #f9f9f9;
+    padding: 15px;
+    background: #ecf0f1;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .trip-itinerary-item:hover {
+    transform: translateX(10px);
+    background: #d5f5e3;
   }
   
   /* Responsive design */
   @media (max-width: 768px) {
-    .trip-details h2 {
-      font-size: 2rem;
+    .trip-title {
+      font-size: 2.5rem;
     }
   
-    .trip-details img {
+    .trip-image {
       max-width: 100%;
     }
   
-    .trip-details p {
-      font-size: 1rem;
+    .trip-detail {
+      font-size: 1.2rem;
     }
   
-    .trip-details h3 {
-      font-size: 1.5rem;
+    .trip-itinerary-title {
+      font-size: 2rem;
     }
   
-    .trip-details ul li {
+    .trip-itinerary-item {
       font-size: 1rem;
     }
   }
