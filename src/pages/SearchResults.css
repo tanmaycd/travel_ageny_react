@@ -1,6 +1,6 @@
 .results-container {
     padding: 2rem;
-    max-width: 1200px;
+    
     margin: auto;
   }
   
@@ -71,3 +71,88 @@
     color: #666;
   }
   
+  /* Full-width container */
+.results-container {
+    width: 100%;
+    /* Optional: Limit the maximum width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Filters section styling */
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  
+  /* Grid layout for trips */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Trip card styling */
+  .trip-card {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards per row */
+    max-width: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .trip-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .trip-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Hover effect for cards */
+  .trip-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .trip-card {
+      flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trip-card {
+      flex: 1 1 100%; /* 1 card per row */
+      max-width: 100%;
+    }
+  }
